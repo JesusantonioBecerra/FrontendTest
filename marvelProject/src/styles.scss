@@ -1,0 +1,30 @@
+//	Workshow's styles
+//	--------------------
+//
+//	Table of Content
+//	----------------
+//	1.	Settings
+//	2.	Tools
+//	3.	Imports Frameworks
+//	4.	Generic
+//	5.	Elements
+//	6.	Objects
+//	7.	Components
+//	8.	Utilities
+//
+//Settings
+@import "style/settings/settings";
+//Tools
+//Frameworks
+@import "~ng-zorro-antd/ng-zorro-antd.min.css";
+@import "~foundation-sites/scss/foundation";
+
+@include foundation-everything(true, true);
+//Generic
+
+@import "style/generic/generic";
+//Elements
+//Objects
+//Components
+@import "style/component/component";
+//Utilities

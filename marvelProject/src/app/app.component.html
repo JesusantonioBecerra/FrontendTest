@@ -1,0 +1,10 @@
+<nz-layout>
+  <nz-header><app-super-header></app-super-header></nz-header>
+  <nz-layout>
+    <nz-content class="delete--scroll-bar"><router-outlet></router-outlet></nz-content>
+  </nz-layout>
+  <nz-footer><app-super-footer></app-super-footer></nz-footer>
+</nz-layout>
+<div id="modalLoading" class="modal--container">
+  <nz-spin nzSimple [nzSize]="'large'"></nz-spin>
+</div>

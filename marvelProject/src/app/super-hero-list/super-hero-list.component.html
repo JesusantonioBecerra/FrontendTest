@@ -1,0 +1,29 @@
+<div class="search__container">
+  <input
+    class="search--input"
+    id="superHeroSearch"
+    placeholder="Busca por nombre"
+    type="text"
+  />
+  <button class="search--button" (click)="searchSuperHero()">Buscar</button>
+</div>
+<div class="card__list-heroes delete--scroll-bar" (scroll)="onScroll($event)">
+  <ng-container
+    *ngFor="let item of superHeroData ; let i = index; trackBy: trackById"
+  >
+    <app-super-hero-card [superHeroCard]="item" (idEdit)="editCard($event)"></app-super-hero-card>
+  </ng-container>
+</div>
+<div id="modalEdit" class="modal--container modal--container--edit">
+  <div class="modal--edit-card">
+    <img class="relation-element-image" [style]="{ 'background-image': 'url(' + dataEdit.thumbnail + ')' }">
+    <div class="card--description">
+      <p><span class="card--description-title" >Nombre: </span> <input id="editName" [value]="dataEdit.name" type="text"> </p>
+      <p><span class="card--description-title">Descripción: </span> <textarea rows="4" id="editDescription" [value]="dataEdit.description" type="text"></textarea></p>
+    </div>
+    <div class="modal--edit-buttons" >
+      <button class="button--edit" (click)="saveCard()">Editar</button>
+      <button class="button--edit" (click)="cancelEditCard()">Cancelar</button>
+    </div>
+  </div>
+</div>

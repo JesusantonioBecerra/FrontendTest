@@ -1,0 +1,48 @@
+:host {
+  text-align: center;
+}
+
+nz-footer {
+  line-height: 1.5;
+}
+
+nz-sider {
+  line-height: 120px;
+}
+
+nz-content {
+  height: calc(100vh - 100px);
+  overflow: hidden;
+  // overflow-y: scroll;
+  // overflow-x: hidden;
+  padding: 20px;
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+  
+}
+
+nz-layout {
+  margin-bottom: 0;
+}
+
+nz-layout:last-child {
+  margin: 0;
+}
+
+.ant-layout,
+.ant-layout-header,
+.ant-layout-footer {
+  background-color: black;
+  color: white;
+}
+
+.ant-layout-header,
+.ant-layout-footer {
+  height: 50px;
+  padding: 0;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  line-height: 1;
+}

@@ -1,0 +1,39 @@
+.relation-element-image {
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 56.25%;
+  overflow: hidden;
+  border: 0;
+  height: auto;
+}
+
+.delete--scroll-bar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+
+  &::-webkit-scrollbar {
+    display: none;
+  }
+}
+
+.modal--container {
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  visibility: hidden;
+  z-index: 9999;
+  background-color: rgba(255, 255, 255, 0.342);
+  top: 0;
+  left: 0;
+  display: none;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal--container-visible {
+  visibility: visible;
+  display: flex;
+}

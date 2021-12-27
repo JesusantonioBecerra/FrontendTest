@@ -1,0 +1,10 @@
+<div class="card__super-hero">
+  <img class="relation-element-image" [style]="{ 'background-image': 'url(' + cardSuperHero.thumbnail + ')' }">
+  <div class="card--description">
+    <p><span class="card--description-title" >Nombre: </span> <span>{{cardSuperHero.name}}</span></p>
+    <p><span class="card--description-title">Descripción: </span> <span>{{cardSuperHero.description}}</span></p>
+    <p><span class="card--description-title">Ultima Modificación: </span> <span>{{cardSuperHero.modified | date: 'dd-MM-YYYY'}}</span></p>
+  </div>
+  <button class="button--edit" (click)="editCard(cardSuperHero.id)">Editar</button>
+</div>
+

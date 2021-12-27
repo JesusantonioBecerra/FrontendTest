@@ -1,0 +1,23 @@
+.card__super-hero {
+  border-radius: 10px;
+  overflow: hidden;
+
+  .card--description {
+    background-color: #ff000073;
+    color: white;
+    padding: 3px;
+    min-height: 230px;
+  }
+
+  .card--description-title {
+    font-weight: 700;
+  }
+
+  .button--edit {
+    background-color: white;
+    color: red;
+    width: 100%;
+    height: 30px;
+    font-weight: 700;
+  }
+}
