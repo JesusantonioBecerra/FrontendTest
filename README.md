@@ -21,21 +21,11 @@ y al clickear Limpiar pantalla se elimina la data.
 
 #### Ejercicio 3 
 Para el tercer ejercicio se trabajo con el gestor de paquetes yarn con la version 1.22.10 con la siguiente version de angular 
-     _                      _                 ____ _     ___
-    / \   _ __   __ _ _   _| | __ _ _ __     / ___| |   |_ _|
-   / △ \ | '_ \ / _` | | | | |/ _` | '__|   | |   | |    | |
-  / ___ \| | | | (_| | |_| | | (_| | |      | |___| |___ | |
- /_/   \_\_| |_|\__, |\__,_|_|\__,_|_|       \____|_____|___|
-                |___/
-    
 
 Angular CLI: 12.2.9
 Node: 14.15.4
 Package Manager: npm 6.14.10
 OS: darwin x64
-
-Angular: 
-... 
 
 Package                      Version
 ------------------------------------------------------
